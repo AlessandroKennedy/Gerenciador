@@ -17,7 +17,7 @@
 
             <!-- Email Address -->
             <div>
-                <x-label for="email" :value="__('E-mail')" />
+               <x-label for="email" :value="__('E-mail')" />
 
                 <x-input placeholder="E-mail" id="email" class="block mt-1 w-full" type="email" name="email" :value="old('email')" required autofocus />
             </div>
@@ -35,7 +35,7 @@
             <!-- Remember Me -->
             <div class="block mt-4">
                 <label for="remember_me" class="inline-flex items-center">
-                    <input id="remember_me" type="checkbox" class="rounded border-gray-300 text-indigo-600 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50" name="remember">
+                    <input id="remember_me" type="checkbox" style="color:#619dcc" class="rounded border-gray-300 text-indigo-600 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50" name="remember">
                     <span class="ml-2 text-sm text-gray-600">{{ __('Lembrar de mim') }}</span>
                 </label>
             </div>
